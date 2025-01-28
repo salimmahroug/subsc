@@ -22,14 +22,15 @@
     "react-query": "^3.39.3",
     "react-router-dom": "^6.24.0",
     "react-scripts": "5.0.1",
+    "subscription": "file:..",
     "web-vitals": "^2.1.4"
   },
- "scripts": {
-  "start": "cross-env PORT=3000 react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
+  "scripts": {
+    "start": "cross-env PORT=3000 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
