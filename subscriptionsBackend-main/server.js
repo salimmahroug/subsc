@@ -10,7 +10,7 @@ app.use(cors());
 // Import routes
 const userRoutes = require("./routers/userRoutes");
 const categorieRoutes = require("./routers/categorieRoutes");
-const paymentRoutes = require("./routers/paymentRoutes");
+const paymentRoutes = require("./routers/paymentRoutes"); 
 const authRoutes = require("./routers/authRoutes");
 const auth = require("./middleware/auth");
 const admissionRoutes = require("./routers/admissionRoutes");
